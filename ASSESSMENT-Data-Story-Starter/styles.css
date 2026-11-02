@@ -80,6 +80,10 @@ th,td{
 thead{
     background:#f1f1f1;
 }
+.table-region{
+    width: 100%;
+    overflow-x: auto
+}
 .table-region:focus-visible{
     outline:.2rem solid var(--color-accent);
     outline-offset:.2rem;
@@ -96,4 +100,7 @@ thead{
 .graphic-line{
     stroke:var(--color-muted);
     stroke-width:8;
+}
+.graphic-text{
+    fill:var(--color-text);
 }
